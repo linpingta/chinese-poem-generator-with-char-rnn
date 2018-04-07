@@ -6,7 +6,7 @@
 
 在16年参加公司黑客马拉松项目时，基于规则做了一版诗词生成，也取得了不错的结果。但当时由于时间限制，没有尝试深度学习相关的方案，在这里算是一个补充。
 
-【远离】
+【原理】
 
 如果已经阅读过char-rnn-tensorflow的代码，本项目中大部分代码阅读没有障碍。我所做的工作，主要是在char-rnn-tensorflow基础上，解决它对于句子定长的限制（这个描述不完全准确，它实际是在生成一篇文章，因此要求设置seq_length，但在宋词生成的方面，句子和句子之间有不同的含义，因此基于每个句子去做seq2seq翻译，似乎更合理一些）。主要区别在网络结构定义和损失函数上，用dynamic_rnn替代legacy_seq2seq.rnn_decoder, 用softmax_cross_entropy_with_logits替代legacy_seq2seq.sequence_loss_by_example。
 
@@ -37,6 +37,6 @@
 
 目前效果大部分都不能beat[chinese-poem-generator](https://github.com/linpingta/chinese-poem-generator)项目的结果，可能有两方面的原因
 1. 规则系统缺失，有些标点符号不该生成的地方没有处理
-2. 可能模型没有收敛，训练数据还是比较少
+2. 模型没有收敛，训练数据还是比较少
 
 作为一个toy项目，还是可以使用的 :)

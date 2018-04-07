@@ -29,3 +29,9 @@
     python inference.py --generate_type multi --title 采桑子
 
     result: 苕渡、忆山霾深，荣老花同，诗人客啸，高共醉举郎书巧，当著旧衰小庭暝，鹏思旧同，波臻俳峭，似彼花开有开拗
+
+【其它】
+目前效果大部分都不能beat[chinese-poem-generator](https://github.com/linpingta/chinese-poem-generator)项目的结果，可能有两方面的原因
+1. 规则系统缺失，有些标点符号不该生成的地方没有处理
+2. 可能模型没有收敛，训练数据还是比较少
+作为一个toy项目，还是可以使用的 :)

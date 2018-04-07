@@ -1,0 +1,38 @@
+rhythm_words  [u'\u80b4', u'\u5de2', u'\u4ea4', u'\u90ca', u'\u8305', u'\u5632', u'\u949e', u'\u5305', u'\u80f6', u'\u82de', u'\u68a2', u'\u59e3', u'\u5e96', u'\u530f', u'\u5773', u'\u6572', u'\u80de', u'\u629b', u'\u86df', u'\u5d24', u'\u9d41', u'\u9798', u'\u6284', u'\u8765', u'\u5486', u'\u54ee', u'\u51f9', u'\u6dc6', u'\u6559', u'[', u'\u4f7f', u'\u4e5f', u']', u'\u8dd1', u'\u8244', u'\u634e', u'\u723b', u'\u54ac', u'\u94d9', u'\u832d', u'\u70ae', u'[', u'\u70ae', u'\u5236', u']', u'\u6ce1', u'\u9c9b', u'\u5228', u'\u6293']
+my test  早
+my test  <type 'unicode'>
+0 False 早 7
+word  语得尽逐来阳早
+here  1
+my rhythm test  巢
+my rhythm test  <type 'unicode'>
+1 True 巢 4
+word  胖鴒鲂巢
+my test  双
+my test  <type 'unicode'>
+2 False 双 4
+word  闲窗缁双
+here  19
+my rhythm test  崤
+my rhythm test  <type 'unicode'>
+3 True 崤 7
+word  狙蟪蠙铠型罂崤
+my test  虎
+my test  <type 'unicode'>
+4 False 虎 7
+word  灏麕馒晡鼪亹虎
+here  31
+my rhythm test  也
+my rhythm test  <type 'unicode'>
+5 True 也 4
+word  侯周生也
+my test  笼
+my test  <type 'unicode'>
+6 False 笼 4
+word  思凝潋笼
+here  15
+my rhythm test  敲
+my rhythm test  <type 'unicode'>
+7 True 敲 7
+word  参宦系绕睆鬼敲
+final result  语得尽逐来阳早，胖鴒鲂巢，闲窗缁双，狙蟪蠙铠型罂崤，灏麕馒晡鼪亹虎，侯周生也，思凝潋笼，参宦系绕睆鬼敲

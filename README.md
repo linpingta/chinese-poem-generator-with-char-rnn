@@ -21,13 +21,13 @@
 生成数据保存在save中，可以通过tensorboard查看log中内容
 
 生成部分：
-1. 生成一句话
+1.生成一句话
 
     python inference.py --generate_type one --word_len 5 --input_word 明
     
     result: words  巫山清露明
 
-2. 生成一个词牌结果
+2.生成一个词牌结果
 
     python inference.py --generate_type multi --title 采桑子
 
